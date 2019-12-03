@@ -2,7 +2,7 @@
 
 open System.IO
 
-let modules = Seq.map (fun line -> line |> int) (File.ReadLines("Day1.txt"))
+let modules = Seq.map (fun line -> line |> int) (File.ReadLines "Day1.txt")
 
 let fuelForMass mass = mass / 3 - 2
 
